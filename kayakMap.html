@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Susquehanna 400 Planning Map</title>
+    <link  rel="stylesheet" type="text/css" href="css/kayakMap.css">
+    <script src="js/polyline.js"></script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCbFkUjiimJsH8OwfH9IWe-SlJz49wsdg&callback=initMap">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDCbFkUjiimJsH8OwfH9IWe-SlJz49wsdg&amp;sensor=false&amp;libraries=geometry"></script>
+    </script>
+  </head>
+  <body>
+	<h1> Kayak Route </h1>
+	<div id = "content">
+	<div id="coordinates">
+		<h2>Campground Coordinates</h2>
+			<table>
+				<tr>
+					<th>Campground</th>
+					<th>Lat</th>
+					<th>Long</th>
+					<th>Miles from Previous</th>
+				</tr>
+
+				<tr>
+					<td class="name">Start of Susquehanna</td>
+					<td class="lat">42.700947</td>		
+					<td class = "long">-74.919718</td>					
+					<td class='dist'>0</td>
+				</tr>
+
+				<tr>
+					<td class ="name">Susquehanna State Forest, Milford NY</td>
+					<td class="lat">42.560365</td>
+					<td class="long">-74.943518</td>
+					<td class='dist' id="leg1"></td>
+				</tr>
+			</table>
+
+	</div>	
+
+	<div id="map"></div>
+    	</div>
+    
+  </body>
+</html>

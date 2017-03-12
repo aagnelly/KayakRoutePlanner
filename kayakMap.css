@@ -1,0 +1,40 @@
+      /* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+
+	h1{
+	font: 24px;
+	height: 75px;
+	text-align:center;
+}
+	#content{
+	width:90%;
+	height: 90%;
+	margin: auto;
+
+	}
+      
+	#map {
+	margin-left: 55%;
+        height: 80%;
+	width: 45%;
+      }
+	
+	#coordinates{
+	float: left;
+	height:100%;
+	width: 50%;
+}
+
+	.dist{
+	text-align: right;
+}
+	.name{
+	text-align: left;
+}
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
